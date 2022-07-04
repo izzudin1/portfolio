@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    height: 100vh;
+    width: 100%; 
+}
+.header{
+    max-height: 6vh;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.532);
+    position: fixed;
+    padding: 5px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+h1{
+    font-size: 30px;
+    color: red;
+}
+h1 span{
+    color: white;
+}
+.img-home{
+    height: 80vh;
+    width: 30vw;
+    padding-top: 7%;
+    margin-left: 10%;
+    border: none;
+    border-radius: 50px 0 50px 0;
+}
+.text-home{
+    
+    width: 25%;
+    height: 15vh;
+    margin-left: 50%;
+    margin-top: -20%;
+    font-style: italic;
+    font-weight: 200;
+}
+.img-about{
+    height: 80vh;
+    width: 30vw;
+    padding-top: 7%;
+    margin-left: 10%;
+    border: none;
+    border-radius: 50px 0 50px 0;
+}
+.text-about{
+    
+    width: 25%;
+    height: 15vh;
+    margin-left: 50%;
+    margin-top: -20%;
+    font-style: italic;
+    font-weight: 200;
+}
+.container{
+    max-height: 45%;
+    max-width: 25%;
+    background-color:#BDE6F1;
+    margin: 10px;
+    margin-top: 100px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 3px 2px 3px 2px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+#service .content{
+    display: flex;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    width: 100%;
+
+}
+
+.container-portfolio{
+    height: 45%;
+    width: 30%;
+    background-color:salmon ;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 80px;
+    border: 1px solid black;
+    
+}
+.content-port{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+#contact .content{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+.contact-box{
+    height: 35%;
+    width: 25%;
+    background-color:#E8A0BF;
+    margin: 20px;
+    margin-top: 250px;
+    padding: 30px;
+}
+.footer{
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(95deg, black, white);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+
+}
